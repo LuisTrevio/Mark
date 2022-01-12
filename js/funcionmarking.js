@@ -2,7 +2,7 @@ const checkbox = document.getElementById('checkbox');
 
     checkbox.addEventListener('change', () => {
     
-        document.querySelectorAll('.bdark').forEach((result) => {result.classList.toggle('dark');})
+        document.querySelectorAll('.menu-on').forEach((result) => {result.classList.toggle('menu-toggle');})
        
     })
     
