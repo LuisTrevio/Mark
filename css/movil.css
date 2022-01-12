@@ -7,5 +7,8 @@
 
     header{height: 90px;}
 
-    .square{margin: auto;}
+    .square{margin: auto auto; width: 600px; font-size: 1.6rem;}
+
+    .content {width: 600px;}
+    
 }
