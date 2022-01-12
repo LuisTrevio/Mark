@@ -1,4 +1,38 @@
 * {
 	margin: 0;
 	padding: 0;
+
+	-webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
 }
+
+::selection {
+    background: var(--nucleo);
+    color: var(--ftext);
+}
+
+html, body {height: 100%;}
+
+#root, #__next {isolation: isolate;}
+
+p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}
+
+*,::before, ::after {box-sizing: border-box;}
+
+input, button, textarea, select {font: inherit;}
+
+/* EH WI GUO */
+
+* {
+	--nucleo: rgb(255, 196, 0);
+    --nucleoh: rgb(255, 174, 0);
+	--textcolor: #121212;
+    --bgcolor: rgb(227, 229, 232);
+}
+
+header {
+	display: flex;
+	height: 60px;
+	background: purple;
+}
+
