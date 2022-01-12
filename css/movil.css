@@ -1,0 +1,7 @@
+@media (max-width:700px) {
+    ol{display: none;}
+
+    .logo {margin: auto;}
+
+    .menu-btn {display: block;}
+}
