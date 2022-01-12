@@ -68,7 +68,7 @@ ul, ol, a {
 	font-family: 'Whitney';
 }
 
-.menu-op li {margin: 100px 60px;}
+.menu-op li {margin: 120px 60px;}
 
 a {color: var(--nucleo);}
 
@@ -107,11 +107,12 @@ li a:hover {
 }
 
 .title {
-	width: 100%;
+	width: auto;
 	height: 200px;
 
 	display: block;
-	padding: 110px 40px 0 40px;
+	margin: auto;
+	padding: 120px 40px 0 40px;
 
 	background: var(--title);
 	font-size: 2rem;
@@ -120,6 +121,7 @@ li a:hover {
 .square {
 	font-size: 1.2em;
 	width: 600px;
+	height: auto;
 	padding: 40px 20px;
 	margin: auto 20px;
 	background: red;
