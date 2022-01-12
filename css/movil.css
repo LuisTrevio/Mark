@@ -1,7 +1,7 @@
 @media (max-width:700px) {
     ol{display: none;}
 
-    .logo {margin: auto; height: 90px;}
+    .logo {height: 90px;}
 
     .menu-btn {display: block;}
 
@@ -10,5 +10,7 @@
     .square{margin: auto auto; width: 600px; font-size: 1.6rem;}
 
     .content {width: 600px;}
+
+    .title {padding: 200px 40px 20px 40px;}
     
 }

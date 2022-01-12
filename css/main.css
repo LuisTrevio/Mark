@@ -31,9 +31,21 @@ input, button, textarea, select {font: inherit;}
 	--hover: rgb(0, 38, 255);
 
 	
-	--header: rgb(223, 223, 223);
+	--header: rgb(255, 255, 255);
 
-	--title: rgb(207, 214, 224);
+	--title: linear-gradient(
+		180deg,
+		hsl(240deg 7% 92%) 0%,
+		hsl(233deg 22% 89%) 21%,
+		hsl(227deg 34% 86%) 35%,
+		hsl(222deg 43% 83%) 47%,
+		hsl(218deg 50% 80%) 58%,
+		hsl(214deg 56% 76%) 68%,
+		hsl(210deg 60% 71%) 77%,
+		hsl(206deg 63% 66%) 85%,
+		hsl(202deg 66% 59%) 93%,
+		hsl(197deg 79% 47%) 100%
+	  );
 
 	--bar:rgb(68, 68, 68);
     --bgbar: rgb(227, 229, 232);
@@ -68,7 +80,7 @@ ul, ol, a {
 	font-family: 'Whitney';
 }
 
-.menu-op li {margin: 120px 60px;}
+.menu-op li {margin: 140px 60px;}
 
 a {color: var(--nucleo);}
 
@@ -97,6 +109,8 @@ li a:hover {
 	background-color: rgba(42, 44, 51, 0.432);
 }
 
+/*CONTENT*/
+
 .content {
 	width: 100%;
 	margin: 60px auto 0 auto;
@@ -108,11 +122,11 @@ li a:hover {
 
 .title {
 	width: auto;
-	height: 200px;
+	height: auto;
 
 	display: block;
 	margin: auto;
-	padding: 120px 40px 0 40px;
+	padding: 160px 40px 20px 40px;
 
 	background: var(--title);
 	font-size: 2rem;
@@ -124,5 +138,5 @@ li a:hover {
 	height: auto;
 	padding: 40px 20px;
 	margin: auto 20px;
-	background: red;
+	background: rgba(87, 33, 33, 0);
 }
