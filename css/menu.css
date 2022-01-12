@@ -21,7 +21,7 @@ input[type="checkbox"]:before{
     text-decoration: none;
 
     font-size: 17px;
-    transition: 0.5s;
+    transition: 0.3s;
 
     content: '🌕';
     position: absolute;
@@ -56,6 +56,4 @@ input:checked:hover[type="checkbox"]:before{
   height: 100%;
 
   background: red;
-
-  z-index: 2;
 }
