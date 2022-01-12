@@ -36,4 +36,4 @@ header {
 	background: purple;
 }
 
-menu {display: none;}
+menu {display: block; width: 0; height: 0;}
