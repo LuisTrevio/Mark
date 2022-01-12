@@ -23,7 +23,6 @@ input[type="checkbox"]:before{
     font-size: 17px;
     transition: 0.3s;
 
-    content: '🌕';
     position: absolute;
 
     width: 25px;
@@ -40,7 +39,6 @@ input[type="checkbox"]:before{
 input:checked[type="checkbox"]:before{ 
     background-color:var(--nucleo);
     text-align:center;
-    content: '🌙';
 }
   
 input:hover[type="checkbox"]:before{background: var(--bgcolor);}

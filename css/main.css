@@ -45,4 +45,5 @@ header {
 	padding: 20px;
 	width: 200px;
 	background: red;
+	z-index: 2;
 }
