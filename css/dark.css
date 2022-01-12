@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: dark) {
-    
+
 * {
 	--nucleo: rgb(255, 196, 0);
     --nucleoh: rgb(255, 174, 0);
@@ -16,4 +16,5 @@
     --bgbar: rgb(68, 68, 68);
     --barh: rgb(255, 174, 0);
 }
+
 }

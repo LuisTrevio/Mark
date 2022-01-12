@@ -1,7 +1,9 @@
 @media (max-width:700px) {
     ol{display: none;}
 
-    .logo {margin: auto;}
+    .logo {margin: auto; height: 90px;}
 
     .menu-btn {display: block;}
+
+    header{height: 90px;}
 }
