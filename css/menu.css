@@ -56,7 +56,7 @@ input:checked:hover[type="checkbox"]:before{
   height: 90%;
   position: fixed;
 
-  background: rgba(233, 233, 233, 0.11);
+  background: rgb(255, 1, 1);
   backdrop-filter: blur(4px);
   top: 0;
 }

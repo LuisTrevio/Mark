@@ -38,4 +38,9 @@ header {
 	position: fixed;
 }
 
-menu {display: block; width: 0; height: 0;}
+.menu {display: block; width: 0; height: 0;}
+
+.menu-btn {
+	padding: 10px;
+	background: red;
+}
