@@ -11,6 +11,10 @@
 
     .content {width: 600px;}
 
-    .title {padding: 200px 40px 20px 40px;}
+    .title {padding: 300px 40px 20px 40px;}
+    
+    /**/
+
+    .Cuadros { width: 18.5%; font-size: 16px;}
     
 }

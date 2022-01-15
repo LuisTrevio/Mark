@@ -8,7 +8,7 @@
 
 ::selection {
     background: var(--nucleo);
-    color: var(--ftext);
+    color: var(--bgcolor);
 }
 
 html, body {height: 100%;}
@@ -31,7 +31,7 @@ input, button, textarea, select {font: inherit;}
 	--hover: rgb(0, 38, 255);
 
 	
-	--header: rgb(255, 255, 255);
+	--header: rgba(255, 255, 255, 0.849);
 
 	--title: linear-gradient(
 		180deg,
@@ -50,6 +50,8 @@ input, button, textarea, select {font: inherit;}
 	--bar:rgb(68, 68, 68);
     --bgbar: rgb(227, 229, 232);
     --barh: rgb(33, 96, 190);
+
+	--menu: rgba(250, 250, 250, 0.644);
 }
 
 body {background: var(--bgcolor);}
@@ -59,6 +61,7 @@ header {
 	height: 60px;
 	width: 100%;
 	background: var(--header);
+	backdrop-filter: blur(4px);
 	top: 0;
 
 	position: fixed;
@@ -75,7 +78,7 @@ ul, ol, a {
 /*MENU*/
 
 .menu-op {
-	font-size: 2rem;
+	font-size: 3rem;
 	height: auto;
 	font-family: 'Whitney';
 }
@@ -126,17 +129,53 @@ li a:hover {
 
 	display: block;
 	margin: auto;
-	padding: 160px 40px 20px 40px;
+	padding: 160px 60px 20px 60px;
 
 	background: var(--title);
-	font-size: 2rem;
+	font-size: 2.2rem;
 }
 
 .square {
 	font-size: 1.2em;
-	width: 680px;
+	width: 700px;
 	height: auto;
-	padding: 40px 20px;
+	padding: 40px 40px;
 	margin: auto 20px;
 	background: rgba(87, 33, 33, 0);
 }
+
+a.link:hover {
+	color: var(--nucleoh);
+}
+
+.comentario {
+	width: 100%;
+	height: auto;
+	background-color: #121212;
+	color: rgb(199, 199, 199);
+	padding: 20px;
+}
+
+/* EVENTO DEFINICION */
+
+.event {
+	width: 100%;
+	display: flex;
+	height: auto;
+}
+
+.Cuadros {
+	width: 20%;
+	height: 180px;
+	padding: 6px;
+	margin: auto 4px;
+	border-radius: 20px;
+	color: #121212;
+	cursor: default;
+}
+
+.Cuadros:hover {background: var(--nucleo); transition: 0.3s; }
+
+.Ex1 {background: yellowgreen;}
+
+.Ex2 {background: rgb(245, 52, 3);}
