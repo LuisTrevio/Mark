@@ -72,8 +72,10 @@ input:checked:hover[type="checkbox"]:before{
     width: 600px;
     height: auto;
     padding: 40px;
+
     text-align: center;
     font-size: 1.6rem;
+    font-family: 'Whitney';
     color: var(--textcolor);
 }
 

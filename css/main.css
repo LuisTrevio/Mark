@@ -249,6 +249,10 @@ footer {
 	font-size: 1.2em;
 }
 
+footer h1 {
+	font-family: 'Roboto';
+}
+
 /* EVENTO DEFINICION */
 
 .event {
