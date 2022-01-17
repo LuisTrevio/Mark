@@ -26,14 +26,15 @@ input, button, textarea, select {font: inherit;}
 * {
 	--nucleo: rgb(33, 96, 190);
     --nucleoh: rgb(55, 85, 255);
+
 	--textcolor: #121212;
     --bgcolor: rgb(253, 253, 253);
+
 	--hover: rgb(0, 38, 255);
-
 	
-	--header: rgba(255, 255, 255, 0.849);
+	--header: rgba(255, 255, 255, 0.623);
 
-	--title: linear-gradient(
+	/*--title: linear-gradient(
 		180deg,
 		hsl(240deg 7% 92%) 0%,
 		hsl(233deg 22% 89%) 21%,
@@ -45,7 +46,20 @@ input, button, textarea, select {font: inherit;}
 		hsl(206deg 63% 66%) 85%,
 		hsl(202deg 66% 59%) 93%,
 		hsl(197deg 79% 47%) 100%
-	  );
+	  );*/
+	  --title: linear-gradient(
+        180deg,
+        hsl(240deg 100% 20%) 0%,
+        hsl(228deg 100% 23%) 21%,
+        hsl(221deg 100% 27%) 35%,
+        hsl(216deg 100% 29%) 47%,
+        hsl(212deg 100% 32%) 58%,
+        hsl(208deg 100% 34%) 68%,
+        hsl(204deg 100% 37%) 77%,
+        hsl(201deg 100% 39%) 85%,
+        hsl(198deg 100% 40%) 93%,
+        hsl(197deg 79% 47%) 100%
+      );
 
 	--bar:rgb(68, 68, 68);
     --bgbar: rgb(227, 229, 232);
@@ -91,7 +105,7 @@ a {color: var(--nucleo);}
 
 /*HEADER*/
 
-ol { margin: auto 20px;}
+ol {margin: auto;}
 
 .desk li {
 	float: left;
@@ -109,14 +123,18 @@ li a:hover {
 	height: 60px;
 	display: block;
 	width: 200px;
-	background-color: rgba(42, 44, 51, 0.432);
+	text-align: center;
+	padding: 20px;
+
+	cursor:default;
+	color: var(--hover);
 }
 
 /*CONTENT*/
 
 .content {
 	width: 100%;
-	margin: 60px auto 0 auto;
+	margin: 0 auto 0 auto;
 	height: auto;
 
 	font-family: 'Whitney';
@@ -129,10 +147,10 @@ li a:hover {
 
 	display: block;
 	margin: auto;
-	padding: 160px 60px 20px 60px;
+	padding: 180px 60px 20px 60px;
 
 	background: var(--title);
-	font-size: 2.2rem;
+	font-size: 2rem;
 }
 
 .square {
@@ -141,7 +159,30 @@ li a:hover {
 	height: auto;
 	padding: 40px 40px;
 	margin: auto 20px;
+
+	font-family: 'Whitney';
 	background: rgba(87, 33, 33, 0);
+}
+
+.square2 {
+	font-size: 1.2em;
+	width: 700px;
+	height: auto;
+	padding: 40px 40px;
+	margin: 40px auto;
+	background: rgba(87, 33, 33, 0);
+}
+
+.cap-btn {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+
+.disable {
+	color: gray;
+	cursor: default;
 }
 
 a.link:hover {
@@ -154,6 +195,57 @@ a.link:hover {
 	background-color: #121212;
 	color: rgb(199, 199, 199);
 	padding: 20px;
+	font-family: 'Roboto';
+}
+
+/*FEEDBACK*/
+
+.feed {
+	display:block;
+
+	float:right;
+	z-index: -1;
+	width: 400px;
+	height: auto;
+	padding: 40px 40px;
+	margin: auto 60px;
+	background: var(--bgbar);
+}
+
+.redes {
+	display:flex;
+	width:100%;
+}
+
+.red {
+	float:left;
+	width: 33%;
+	height: 60px;
+
+	margin: auto 2px;
+	background: red;
+}
+/*
+.twitter {background: url();}
+
+.github {background: url();}
+
+.discord {background: url();}
+*/
+/*FOOTER*/
+
+footer {
+	width: auto;
+	height: auto;
+
+	display: block;
+	margin: auto;
+	padding: 60px 40px;
+	margin: 20px auto;
+
+	background: var(--bgbar);
+	color: var(--textcolor);
+	font-size: 1.2em;
 }
 
 /* EVENTO DEFINICION */
@@ -162,19 +254,20 @@ a.link:hover {
 	width: 100%;
 	display: flex;
 	height: auto;
+	margin: 6px auto;
 }
 
 .Cuadros {
 	width: 20%;
-	height: 180px;
-	padding: 6px;
+	height: 200px;
+	padding: 8px;
 	margin: auto 4px;
-	border-radius: 20px;
+	border-radius: 10px;
 	color: #121212;
 	cursor: default;
 }
 
-.Cuadros:hover {background: var(--nucleo); transition: 0.3s; }
+.Cuadros:hover {background: var(--nucleo); transition: 0.3s;}
 
 .Ex1 {background: yellowgreen;}
 

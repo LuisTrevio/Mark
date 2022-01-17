@@ -7,7 +7,8 @@
 
 	--textcolor: #b4b4b4;
     --bgcolor: rgb(0, 0, 0);
-	--header: rgb(77, 77, 77);
+    
+	--header: rgba(77, 77, 77, 0.699);
 
 	--title: linear-gradient(
         180deg,
@@ -27,6 +28,6 @@
     --bgbar: rgb(68, 68, 68);
     --barh: rgb(255, 174, 0);
 
-    --menu: rgba(82, 82, 82, 0.644);
+    --menu: rgba(36, 36, 36, 0.788);
 }
 }
