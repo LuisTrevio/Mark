@@ -245,6 +245,7 @@ footer {
 
 	background: var(--bgbar);
 	color: var(--textcolor);
+	font-family: 'Whitney';
 	font-size: 1.2em;
 }
 
