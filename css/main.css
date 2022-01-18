@@ -163,14 +163,6 @@ li a:hover {
 	background: var(--title);
 	color: var(--titlec);
 	font-size: 2rem;
-	background-size: 400%, 400%;
-    	animation: Relax 10s ease infinite;
-}
-
-   @keyframes Relax {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
 }
 
 .square {
