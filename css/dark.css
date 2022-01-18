@@ -11,7 +11,7 @@
 	--header: rgba(77, 77, 77, 0.699);
 
 	--title:linear-gradient(45deg,
-        hsl(240deg 100% 50%) 0%,
+        hsl(240, 100%, 50%) 0%,
         hsl(243deg 97% 48%) 5%,
         hsl(244deg 94% 46%) 10%,
         hsl(245deg 91% 44%) 15%,
