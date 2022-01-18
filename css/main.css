@@ -48,18 +48,29 @@ input, button, textarea, select {font: inherit;}
 		hsl(197deg 79% 47%) 100%
 	  );*/
 	  --title: linear-gradient(
-        180deg,
-        hsl(240deg 100% 20%) 0%,
-        hsl(228deg 100% 23%) 21%,
-        hsl(221deg 100% 27%) 35%,
-        hsl(216deg 100% 29%) 47%,
-        hsl(212deg 100% 32%) 58%,
-        hsl(208deg 100% 34%) 68%,
-        hsl(204deg 100% 37%) 77%,
-        hsl(201deg 100% 39%) 85%,
-        hsl(198deg 100% 40%) 93%,
-        hsl(197deg 79% 47%) 100%
-      );
+  45deg,
+  	hsl(240deg 100% 50%) 0%,
+  	hsl(246deg 100% 55%) 5%,
+  	hsl(249deg 100% 58%) 10%,
+  	hsl(250deg 99% 61%) 15%,
+  	hsl(251deg 99% 63%) 20%,
+  	hsl(252deg 99% 65%) 25%,
+  	hsl(253deg 98% 67%) 30%,
+  	hsl(253deg 98% 69%) 35%,
+  	hsl(253deg 97% 71%) 40%,
+  	hsl(254deg 96% 73%) 45%,
+  	hsl(253deg 95% 75%) 50%,
+  	hsl(253deg 94% 77%) 55%,
+  	hsl(253deg 92% 79%) 60%,
+  	hsl(251deg 90% 81%) 65%,
+  	hsl(250deg 87% 82%) 70%,
+  	hsl(248deg 83% 84%) 75%,
+  	hsl(244deg 78% 86%) 80%,
+  	hsl(238deg 72% 88%) 85%,
+  	hsl(230deg 67% 89%) 90%,
+  	hsl(218deg 60% 89%) 95%,
+  	hsl(200deg 53% 90%) 100%
+);
 
 	--bar:rgb(68, 68, 68);
     --bgbar: rgb(227, 229, 232);
