@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap'); /* BY Andrew Paglinawan */ 
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap'); /* BY Pria Ravichandran */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -79,7 +82,7 @@ input, button, textarea, select {font: inherit;}
 	--menu: rgba(250, 250, 250, 0.644);
 }
 
-body {background: var(--bgcolor);}
+body {background: var(--bgcolor); line-height: 1.5;}
 
 header {
 	display: flex;
@@ -90,7 +93,7 @@ header {
 	top: 0;
 
 	position: fixed;
-	font-family: 'Whitney';
+	font-family: 'Quicksand', sans-serif;
 }
 
 .menu {display: none; width: 0; height: 0;}
@@ -105,7 +108,7 @@ ul, ol, a {
 .menu-op {
 	font-size: 3rem;
 	height: auto;
-	font-family: 'Whitney';
+	font-family: 'Palanquin Dark', sans-serif;
 }
 
 .menu-op li {margin: 140px 60px;}
@@ -136,6 +139,7 @@ li a:hover {
 	width: 200px;
 	text-align: center;
 	padding: 20px;
+	font-family: 'Quicksand', sans-serif;
 
 	cursor:default;
 	color: var(--hover);
@@ -148,7 +152,7 @@ li a:hover {
 	margin: 0 auto 0 auto;
 	height: auto;
 
-	font-family: 'Whitney';
+	font-family: 'Quicksand', sans-serif;
 	color: var(--textcolor);
 }
 
@@ -162,6 +166,7 @@ li a:hover {
 
 	background: var(--title);
 	color: var(--titlec);
+	font-family: 'Palanquin Dark';
 	font-size: 2rem;
 }
 
@@ -172,8 +177,12 @@ li a:hover {
 	padding: 40px 40px;
 	margin: auto 20px;
 
-	font-family: 'Whitney';
+	font-family: 'Quicksand', sans-serif;
 	background: rgba(87, 33, 33, 0);
+}
+
+.square h2 {
+	font-family: 'Palanquin Dark';
 }
 
 .square2 {
@@ -182,6 +191,7 @@ li a:hover {
 	height: auto;
 	padding: 40px 40px;
 	margin: 40px auto;
+	font-family: 'Quicksand', sans-serif;
 	background: rgba(87, 33, 33, 0);
 }
 
@@ -207,7 +217,7 @@ a.link:hover {
 	background-color: #121212;
 	color: rgb(199, 199, 199);
 	padding: 20px;
-	font-family: 'Roboto';
+	font-family: 'Palanquin Dark';
 }
 
 /*FEEDBACK*/
@@ -221,7 +231,14 @@ a.link:hover {
 	height: auto;
 	padding: 40px 40px;
 	margin: auto 60px;
+
+	font-family: 'Quicksand', sans-serif;
 	background: var(--bgbar);
+}
+
+
+.feed h2 {
+	font-family: 'Palanquin Dark';
 }
 
 .redes {
@@ -257,12 +274,12 @@ footer {
 
 	background: var(--bgbar);
 	color: var(--textcolor);
-	font-family: 'Whitney';
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.2em;
 }
 
 footer h1 {
-	font-family: 'Roboto';
+	font-family: 'Palanquin Dark';
 }
 
 /* EVENTO DEFINICION */

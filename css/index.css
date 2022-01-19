@@ -4,6 +4,7 @@ a.folder {
     height: auto;
     padding: 10px;
     margin: 30px auto;
+    font-family: 'Quicksand', sans-serif;
 
     display: block;
     background: rgba(170, 167, 167, 0);

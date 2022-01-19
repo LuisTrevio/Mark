@@ -79,7 +79,7 @@ input:checked:hover[type="checkbox"]:before{
 
     text-align: center;
     font-size: 1.6rem;
-    font-family: 'Whitney';
+    font-family: 'Quicksand', sans-serif;
     color: var(--textcolor);
 }
 
