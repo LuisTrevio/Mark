@@ -1,4 +1,4 @@
-li a .disable:hover {
+.disable li a:hover {
 	color: var(--hover);
 	border: none;
 }
