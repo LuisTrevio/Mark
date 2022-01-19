@@ -1,7 +1,3 @@
-.disable li a:hover {
-	color: var(--hover);
-	border: none;
-}
 
 a.folder {
     width: 100%;
