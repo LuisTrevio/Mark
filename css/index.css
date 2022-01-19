@@ -18,6 +18,6 @@ a p {
 }
 
 a.folder:hover {
-    border: 1px solid var(--nucleoh);
+    background: var(--titlec);
     color: var(--nucleoh);
 }
