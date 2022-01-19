@@ -18,6 +18,6 @@ a p {
 }
 
 a.folder:hover {
-    background: var(--header);
+    background: var(--bgbar);
     color: var(--nucleoh);
 }
