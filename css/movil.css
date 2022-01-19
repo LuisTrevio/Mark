@@ -26,3 +26,7 @@
 @media (max-width:1180px) {
     .feed {display: none}
 }
+
+@viewport {
+    zoom: 0.5;
+}
