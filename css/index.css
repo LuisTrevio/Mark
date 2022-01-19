@@ -1,3 +1,8 @@
+li a .disable:hover {
+	color: var(--hover);
+	border: none;
+}
+
 a.folder {
     width: 100%;
     height: auto;
