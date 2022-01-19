@@ -1,0 +1,39 @@
+a.folder {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 30px auto;
+
+    display: block;
+    background: rgba(170, 167, 167, 0);
+}
+
+a p {
+    color: var(--textcolor);
+}
+
+a.folder:hover {
+    color: var(--nucleoh);
+}
+
+a.checar {
+    width: auto;
+    height: 20px;
+    padding: 10px;
+    background-color: var(--nucleo);
+    color: var(--titlec);
+    display: flexbox;
+
+    margin: auto 10px;
+    border-radius: 20px;
+}
+
+a.checar:hover {
+    color: var(--nucleo);
+    background: var(--titlec);
+    transition: 0.3s;
+}
+
+@media (max-width:700px) { 
+    a.checar { display: none;}
+}
