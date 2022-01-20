@@ -7,15 +7,15 @@
 
     header{height: 90px;}
 
-    .square{margin: auto auto; width: 340px; font-size: 1.6rem;}
+    .square{margin: auto auto; width: 599px; font-size: 1.6rem;}
 
-    .square2{margin: auto auto; width: 340px; font-size: 1.6rem; padding: 60px 40px;}
+    .square2{margin: auto auto; width: 599px; font-size: 1.6rem; padding: 60px 40px;}
 
-    .content {width: 340px;}
+    .content {width: 599px;}
 
     .title {padding: 300px 40px 20px 40px;}
 
-    footer {width: 340px;}
+    footer {width: 599px;}
     
     /**/
 
