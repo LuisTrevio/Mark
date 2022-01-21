@@ -13,7 +13,7 @@
 
     .content {width: 100%;}
 
-    .title {padding: 200px 30px 20px 30px; font-size: 1.6rem;}
+    .title {padding: 200px 30px 20px 30px; font-size: 1.4rem;}
 
     footer {width: 100%; padding: 40px 30px;}
 
@@ -21,7 +21,9 @@
     
     /**/
 
-    .Cuadros { width: 18.5%; font-size: 16px;}
+    .event {margin: auto;}
+
+    .Cuadros { width: 17.5%; height: 160px; font-size: 9px; margin: auto 2px;}
     
 }
 
