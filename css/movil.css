@@ -1,21 +1,23 @@
 @media (max-width:700px) {
     ol{display: none;}
 
-    .logo {height: 70px; font-size: 1.4rem;}
+    .logo {height: 60px; font-size: 1.2rem;}
 
     .menu-btn {display: block;}
 
-    header{height: 70px; padding: 0px;}
+    header{height: 60px; padding: 0;}
 
-    .square{margin: auto auto; width: 100%; font-size: 1.2rem;}
+    .square{margin: auto auto; width: 100%; font-size: 1.2rem; padding: 40px 30px;}
 
     .square2{margin: auto auto; width: 100%; font-size: 1.2rem; padding: 60px 40px;}
 
     .content {width: 100%;}
 
-    .title {padding: 200px 40px 20px 40px; font-size: 1.8rem;}
+    .title {padding: 200px 30px 20px 30px; font-size: 1.6rem;}
 
-    footer {width: 100%;}
+    footer {width: 100%; padding: 40px 30px;}
+
+    footer h1 {font-size: 1.8rem;}
     
     /**/
 
