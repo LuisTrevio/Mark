@@ -8,7 +8,7 @@ input[type="checkbox"]{
     float: left;
     -webkit-appearance: none;
 
-    top: 18px;
+    top: 14px;
     margin: 1px;
         
     border-radius: 20px;
@@ -27,13 +27,13 @@ input[type="checkbox"]:before{
 
     position: absolute;
 
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 360px;
     top: -3px;
 
     background-image: url(menulogo.svg);
-    background-size: 42px;
+    background-size: 33px;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -46,7 +46,7 @@ input[type="checkbox"]:before{
 input:checked[type="checkbox"]:before{ 
     background-color:var(--nucleo);
 	background-image: url(cross.svg);
-        background-size: 30px;
+        background-size: 26px;
         background-position: center;
         background-repeat: no-repeat;
     text-align:center;
@@ -62,9 +62,9 @@ input:checked:hover[type="checkbox"]:before{
 	position: fixed;
 	display: none;
 
-	padding: 20px;
-	width: 100px;
-	height: 90px;
+	padding: 0 20px;
+	width: 80px;
+	height: 70px;
     right: 30px;
     top: 0;
 	background: rgba(0, 0, 0, 0);
@@ -73,12 +73,12 @@ input:checked:hover[type="checkbox"]:before{
 
 .detail {
     margin: auto;
-    width: 600px;
+    width: 100%;
     height: auto;
-    padding: 40px;
+    padding: 20px 0;
 
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-family: 'Quicksand', sans-serif;
     color: var(--textcolor);
 }

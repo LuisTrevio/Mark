@@ -88,6 +88,7 @@ header {
 	display: flex;
 	height: 60px;
 	width: 100%;
+	padding: 0 20px;
 	background: var(--header);
 	backdrop-filter: blur(4px);
 	top: 0;
@@ -106,12 +107,12 @@ ul, ol, a {
 /*MENU*/
 
 .menu-op {
-	font-size: 3rem;
+	font-size: 2rem;
 	height: auto;
 	font-family: 'Palanquin Dark', sans-serif;
 }
 
-.menu-op li {margin: 140px 60px;}
+.menu-op li {margin: 90px 60px;}
 
 a {color: var(--nucleo);}
 
@@ -119,7 +120,9 @@ a {color: var(--nucleo);}
 
 /*HEADER*/
 
-ol {margin: auto;}
+
+
+ol {margin-left: auto; margin-top: 10px;}
 
 .desk li {
 	float: left;
@@ -252,7 +255,7 @@ a.link:hover {
 	height: 60px;
 
 	margin: auto 2px;
-	background: red;
+	background: var(--bgcolor);
 }
 /*
 .twitter {background: url();}

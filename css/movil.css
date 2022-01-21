@@ -1,21 +1,21 @@
 @media (max-width:700px) {
     ol{display: none;}
 
-    .logo {height: 90px; padding:30px;font-size: 1.6rem;}
+    .logo {height: 70px; font-size: 1.4rem;}
 
     .menu-btn {display: block;}
 
-    header{height: 90px;}
+    header{height: 70px; padding: 0px;}
 
-    .square{margin: auto auto; width: 599px; font-size: 1.6rem;}
+    .square{margin: auto auto; width: 100%; font-size: 1.2rem;}
 
-    .square2{margin: auto auto; width: 599px; font-size: 1.6rem; padding: 60px 40px;}
+    .square2{margin: auto auto; width: 100%; font-size: 1.2rem; padding: 60px 40px;}
 
-    .content {width: 599px;}
+    .content {width: 100%;}
 
-    .title {padding: 300px 40px 20px 40px;}
+    .title {padding: 200px 40px 20px 40px; font-size: 1.8rem;}
 
-    footer {width: 599px;}
+    footer {width: 100%;}
     
     /**/
 
