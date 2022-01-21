@@ -8,7 +8,7 @@
 
 ## Tipografia/Fuentes
 
-- [Quicksand](https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap) By Andrew Paglinawan
-- [Palanquin Dark](https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap) By Pria Ravichandr
+- [Quicksand](https://github.com/andrew-paglinawan/QuicksandFamily) By Andrew Paglinawan
+- [Palanquin Dark](https://github.com/VanillaandCream/Palanquin) By Pria Ravichandr
 
 : Si algo falla me avisan
