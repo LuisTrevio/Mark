@@ -37,20 +37,7 @@ input, button, textarea, select {font: inherit;}
 	
 	--header: rgba(255, 255, 255, 0.623);
 
-	/*--title: linear-gradient(
-		180deg,
-		hsl(240deg 7% 92%) 0%,
-		hsl(233deg 22% 89%) 21%,
-		hsl(227deg 34% 86%) 35%,
-		hsl(222deg 43% 83%) 47%,
-		hsl(218deg 50% 80%) 58%,
-		hsl(214deg 56% 76%) 68%,
-		hsl(210deg 60% 71%) 77%,
-		hsl(206deg 63% 66%) 85%,
-		hsl(202deg 66% 59%) 93%,
-		hsl(197deg 79% 47%) 100%
-	  );*/
-	  --title: linear-gradient(45deg,
+	--title: linear-gradient(45deg,
 		hsl(240deg 100% 50%) 0%,
 		hsl(246deg 100% 55%) 5%,
 		hsl(249deg 100% 58%) 10%,
@@ -72,7 +59,7 @@ input, button, textarea, select {font: inherit;}
 		hsl(230deg 67% 89%) 90%,
 		hsl(218deg 60% 89%) 95%,
 		hsl(200deg 53% 90%) 100%
-	  );
+	);
 	--titlec:#ebebeb;
 
 	--bar:rgb(68, 68, 68);
@@ -82,7 +69,10 @@ input, button, textarea, select {font: inherit;}
 	--menu: rgba(250, 250, 250, 0.644);
 }
 
-body {background: var(--bgcolor); line-height: 1.5;}
+body {
+	background: var(--bgcolor); 
+	line-height: 1.5;
+}
 
 header {
 	display: flex;
@@ -104,23 +94,9 @@ ul, ol, a {
 	list-style: none;
 }
 
-/*MENU*/
-
-.menu-op {
-	font-size: 2rem;
-	height: auto;
-	font-family: 'Palanquin Dark', sans-serif;
-}
-
-.menu-op li {margin: 80px 40px;}
-
-a {color: var(--nucleo);}
-
-.menu-op a:hover {color: var(--hover);}
-
 /*HEADER*/
 
-
+a {color: var(--nucleo);}
 
 ol {margin-left: auto; margin-top: 10px;}
 
@@ -181,7 +157,6 @@ li a:hover {
 	margin: auto 20px;
 
 	font-family: 'Quicksand', sans-serif;
-	background: rgba(87, 33, 33, 0);
 }
 
 .square h2 {
