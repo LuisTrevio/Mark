@@ -1,0 +1,110 @@
+input[type="checkbox"]{
+    align-content:center;
+
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    float: left;
+    -webkit-appearance: none;
+
+    top: 12px;
+    margin: 1px;
+        
+    border-radius: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+  
+input[type="checkbox"]:before{
+    text-align:center;
+    text-decoration: none;
+
+    font-size: 17px;
+    transition: 0.3s;
+
+    content: '';
+
+    position: absolute;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 360px;
+    top: -3px;
+
+    background-image: url(menulogo.svg);
+    background-size: 28px;
+    background-position: center 14px;
+    background-repeat: no-repeat;
+
+    background-color: var(--bar);
+
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+  
+input:checked[type="checkbox"]:before{ 
+	background-image: url(cross.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;
+    content: '';
+}
+  
+input:checked:hover[type="checkbox"]:before{
+        box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+.menu-btn {
+	position: fixed;
+	display: none;
+
+	padding: 0 20px;
+	width: 60px;
+	height: 60px;
+    right: 30px;
+    top: 0;
+	background: rgba(0, 0, 0, 0);
+	z-index: 2;
+}
+
+.detail {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: var(--textcolor);
+}
+
+.menu-op {
+	font-size: 2rem;
+	height: auto;
+	font-family: 'Palanquin Dark', sans-serif;
+}
+
+.menu-op li {margin: 80px 40px;}
+
+.menu-op a:hover {color: var(--hover);}
+
+@media (max-width:700px) {
+.menu-toggle {
+    display: block;
+    width: 100%;
+    height: 100%;
+    bottom: 1px;
+    position: fixed;
+  
+    background: var(--menu);
+    backdrop-filter: blur(4px);
+    animation: focus 0.2s ease;
+  }
+  
+  @keyframes focus {
+      0%{opacity: 0;}
+      100% {}
+  }
+}

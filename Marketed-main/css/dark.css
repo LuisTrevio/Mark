@@ -1,0 +1,43 @@
+@media (prefers-color-scheme: dark) {
+* {
+	--nucleo: rgb(255, 196, 0);
+    --nucleoh: rgb(255, 174, 0);
+
+    --hover: rgb(245, 245, 245);
+
+	--textcolor: #b4b4b4;
+    --bgcolor: rgb(0, 0, 0);
+    
+	--header: rgba(77, 77, 77, 0.699);
+
+	--title:linear-gradient(45deg,
+        hsl(240, 100%, 50%) 0%,
+        hsl(243deg 97% 48%) 5%,
+        hsl(244deg 94% 46%) 10%,
+        hsl(245deg 91% 44%) 15%,
+        hsl(246deg 88% 41%) 20%,
+        hsl(247deg 86% 39%) 25%,
+        hsl(248deg 84% 37%) 30%,
+        hsl(249deg 81% 34%) 35%,
+        hsl(250deg 79% 32%) 40%,
+        hsl(250deg 77% 29%) 45%,
+        hsl(251deg 75% 27%) 50%,
+        hsl(252deg 73% 24%) 55%,
+        hsl(253deg 70% 22%) 60%,
+        hsl(254deg 67% 19%) 65%,
+        hsl(255deg 64% 17%) 70%,
+        hsl(256deg 61% 15%) 75%,
+        hsl(259deg 57% 12%) 80%,
+        hsl(265deg 58% 10%) 85%,
+        hsl(271deg 62% 7%) 90%,
+        hsl(268deg 68% 4%) 95%,
+        hsl(0deg 0% 0%) 100%
+      );
+
+	--bar:rgb(227, 229, 232);
+    --bgbar: rgb(68, 68, 68);
+    --barh: rgb(255, 174, 0);
+
+    --menu: rgba(36, 36, 36, 0.788);
+}
+}
