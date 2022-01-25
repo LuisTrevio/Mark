@@ -10,6 +10,8 @@
     
 	--header: rgba(77, 77, 77, 0.699);
 
+    --btncolor: rgba(24, 24, 24, 0.623);
+
 	--title:linear-gradient(45deg,
         hsl(240, 100%, 50%) 0%,
         hsl(243deg 97% 48%) 5%,
