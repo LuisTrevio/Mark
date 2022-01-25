@@ -147,7 +147,6 @@ li a:hover {
 	padding: 180px 60px 20px 60px;
 
 	background: var(--title);
-	background-attachment: fixed;
 	color: var(--titlec);
 	font-family: 'Palanquin Dark';
 	font-size: 2rem;
