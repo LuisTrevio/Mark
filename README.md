@@ -1,7 +1,5 @@
 # Marketed
 
-[NO DISPONIBLE]
-
 [Vamos a probar](https://luistrevio.github.io/Marketed/)
 
 - [Definicion](https://luistrevio.github.io/Marketed/definicion)
