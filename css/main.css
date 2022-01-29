@@ -82,7 +82,7 @@ header {
 	display: flex;
 	height: 60px;
 	width: 100%;
-	padding: 0 20px;
+	padding: 0 60px 0 20px;
 	background: var(--header);
 	backdrop-filter: blur(4px);
 	top: 0;
@@ -177,6 +177,21 @@ a.link:hover {
 	color: var(--nucleoh);
 }
 
+.disanew {background: gray;}
+
+p.new {
+	/*background: var(--nucleo);*/
+	color: var(--bgcolor);
+
+	padding: 0 8px;
+	border-radius: 20px;
+	width: 60px;
+}
+
+.folder:hover .new {
+	background: var(--nucleo);	
+}
+
 a.folder {
     width: 100%;
     height: auto;
@@ -255,7 +270,7 @@ footer {
 
 	display: block;
 	margin: auto;
-	padding: 60px 40px;
+	padding: 60px 40px 20px 40px;
 
 	background: var(--bgbar);
 	color: var(--textcolor);
@@ -266,6 +281,8 @@ footer {
 footer h1 {
 	font-family: 'Palanquin Dark';
 }
+
+footer h5 {text-align: center;}
 
 /**/
 
