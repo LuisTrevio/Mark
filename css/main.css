@@ -32,13 +32,13 @@ input, button, textarea, select {font: inherit;}
     --nucleoh: rgb(55, 85, 255);
 
 	--textcolor: #121212;
-    --bgcolor: rgb(253, 253, 253);
+    --bgcolor: rgb(255, 255, 255);
 
 	--hover: rgb(0, 38, 255);
 	
 	--header: rgba(255, 255, 255, 0.623);
 
-	--btncolor: rgb(175, 175, 175);
+	--btncolor: rgb(56, 56, 56);
 
 	--title: linear-gradient(45deg,
 		hsl(240deg 100% 50%) 0%,
@@ -167,30 +167,34 @@ li a:hover {
 	font-family: 'Palanquin Dark';
 }
 
-.square2 {
-	font-size: 1.2em;
-	width: 700px;
-	height: auto;
-	padding: 40px 40px;
-	margin: 40px auto;
-	font-family: 'Quicksand', sans-serif;
-	background: rgba(87, 33, 33, 0);
-}
-
-.cap-btn {
-	float: left;
-	width: 50%;
-	padding: 10px;
-	text-align: center;
-}
-
 .disable {
 	color: gray;
 	cursor: default;
+	user-select: none;
 }
 
 a.link:hover {
 	color: var(--nucleoh);
+}
+
+a.folder {
+    width: 100%;
+    height: auto;
+    padding: 14px;
+    margin: 20px auto;
+    font-family: 'Quicksand', sans-serif;
+
+    display: block;
+    background: rgba(170, 167, 167, 0);
+}
+
+a p {
+    color: var(--textcolor);
+}
+
+a.folder:hover {
+    background: var(--bgbar);
+    color: var(--nucleoh);
 }
 
 .comentario {
@@ -263,6 +267,9 @@ footer h1 {
 	font-family: 'Palanquin Dark';
 }
 
+/**/
+
+
 /* EVENTO DEFINICION */
 
 .event {
@@ -274,7 +281,7 @@ footer h1 {
 
 .Cuadros {
 	width: 20%;
-	height: 200px;
+	height: 240px;
 	padding: 8px;
 	margin: auto 4px;
 	border-radius: 10px;

@@ -8,9 +8,9 @@
 	--textcolor: #b4b4b4;
     --bgcolor: rgb(0, 0, 0);
     
-	--header: rgba(77, 77, 77, 0.699);
+	--header: rgba(70, 70, 70, 0.726);
 
-    --btncolor: rgba(24, 24, 24, 0.623);
+    --btncolor: rgba(24, 24, 24, 0.541);
 
 	--title:linear-gradient(45deg,
         hsl(240, 100%, 50%) 0%,
