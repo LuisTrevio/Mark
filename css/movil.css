@@ -52,6 +52,8 @@
 
 @media (max-width:1180px) {
     .feed {display: none}
+
+    .dotes::after {content: '';}
 }
 
 @viewport {

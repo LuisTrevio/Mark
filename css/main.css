@@ -177,6 +177,10 @@ a.link:hover {
 	color: var(--nucleoh);
 }
 
+.dotes {user-select: none;}
+
+.dotes::after {content: '-------------------------------------';}
+
 .disanew {background: gray;}
 
 p.new {
