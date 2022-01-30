@@ -1,6 +1,6 @@
 # Marketed
 
-[Vamos a probar en HOME (Click en pestaña nueva obviamente)](https://luistrevio.github.io/Marketed/)
+[Let's go in HOME (Click en pestaña nueva obviamente)](https://luistrevio.github.io/Marketed/)
 
 - [Definicion](https://luistrevio.github.io/Marketed/definicion)
 - [Necesidades](https://luistrevio.github.io/Marketed/necesidades)
@@ -8,7 +8,7 @@
 
 ## Screenshots
 
-[ IMAGEN EN ESCRITORIO ] [ EN MOVIL ]
+[ IMAGE IN DESK-PC ] [ IN MOVIL ]
 
 : No tengo imagenes (algun dia, algun dia)
 
