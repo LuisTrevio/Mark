@@ -36,6 +36,11 @@
     footer h1 {font-size: 1.8rem;}
 
     footer h5 {text-align:left;}
+
+    p.new {
+        padding: 0 6px;
+        font-size: 1em; 
+    }
     
     /**/
 

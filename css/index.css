@@ -1,0 +1,20 @@
+
+a.folder {
+    width: 100%;
+    height: auto;
+    padding: 14px;
+    margin: 20px auto;
+    font-family: 'Quicksand', sans-serif;
+
+    display: block;
+    background: rgba(170, 167, 167, 0);
+}
+
+a p {
+    color: var(--textcolor);
+}
+
+a.folder:hover {
+    background: var(--bgbar);
+    color: var(--nucleoh);
+}
