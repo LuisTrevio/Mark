@@ -125,6 +125,7 @@ li a:hover {
 	font-family: 'Quicksand', sans-serif;
 
 	cursor:default;
+	user-select: none;
 	color: var(--hover);
 }
 
@@ -206,6 +207,7 @@ a.folder {
     font-family: 'Quicksand', sans-serif;
 
     display: block;
+	user-select: none;
     background: rgba(170, 167, 167, 0);
 }
 
