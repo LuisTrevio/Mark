@@ -10,7 +10,7 @@
 
 [ IMAGEN EN ESCRITORIO ] [ EN MOVIL ]
 
-:No tengo imagenes
+: No tengo imagenes (algun dia, algun dia)
 
 ## Tipografia/Font
 
