@@ -6,9 +6,15 @@
 - [Necesidades](https://luistrevio.github.io/Marketed/necesidades)
 - [Mercados](https://luistrevio.github.io/Marketed/mercados)
 
-## Tipografia/Fuentes
+## Screenshots
 
-- [Quicksand](https://github.com/andrew-paglinawan/QuicksandFamily) By Andrew Paglinawan
+[ IMAGEN EN ESCRITORIO ] [ EN MOVIL ]
+
+:No tengo imagenes
+
+## Tipografia/Font
+
+- [Quicksand](https://github.com/andrew-paglinawan/QuicksandFamily) By Andrew Paglinawan 
 - [Palanquin Dark](https://github.com/VanillaandCream/Palanquin) By Pria Ravichandr
 
 : Si algo falla me avisan
