@@ -39,12 +39,10 @@ input[type="checkbox"]:before{
 }
   
 input:checked[type="checkbox"]:before{ 
+    background: none;
+    box-shadow: none;
     text-align:center;
     content: '';
-}
-  
-input:checked:hover[type="checkbox"]:before{
-        box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
 }
 
 .menu-btn {
@@ -93,12 +91,13 @@ input:checked:hover[type="checkbox"]:before{
   
     background: var(--menu);
     backdrop-filter: blur(4px);
+    transition: 0.2s ease;
     animation: focus 0.2s ease;
   }
   
   @keyframes focus {
       0%{opacity: 0;}
-      100% {}
+      100% {opacity: 1;}
   }
 }
 
@@ -126,14 +125,16 @@ input:checked:hover[type="checkbox"]:before{
 }
 
 .action-1{
-    transition: 0.3s;
-    transform: rotate(0.39turn);
+    transition: 0.2s;
+    transform: rotate(-0.39turn);
+    background-color: var(--btnchecked);
     top: 28px;
 }
 
 .action-2{
-    transition: 0.3s;
-    transform: rotate(-0.39turn);
+    transition: 0.2s;  
+    transform: rotate(0.39turn);
+    background-color: var(--btnchecked);
     top: 28px;
 }
 
