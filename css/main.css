@@ -36,7 +36,7 @@ input, button, textarea, select {font: inherit;}
 
 	--hover: rgb(0, 38, 255);
 
-	--feed:rgb(230, 230, 230);
+	--feed:rgba(0, 114, 255, 0.9);
 	
 	--header: rgba(255, 255, 255, 0.623);
 
