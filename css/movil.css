@@ -55,21 +55,30 @@
     
 }
 
-@media (max-width:1200px) {
-    .feed {display: none}
+@media (max-width:1130px) {
 
     .principal {
         padding-left: 0;
         padding-right: 0;
+    }
+
+}
+
+@media (max-width:1050px) { 
+
+    .feed {display: none}
+    
+    .principal {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 0;
         margin: auto;
     }
 
-    .square{margin: auto; }
+    .square{margin: auto;}
 
     .dotes::after {content: '';}
+    
 }
 
 @viewport {

@@ -149,7 +149,7 @@ li a:hover {
 	max-width: 1400px;
 	grid-template-columns: 2fr 1fr;
 	grid-row: auto;
-	gap: 0 40px;
+	gap: auto 40px;
 
 	padding-left: 80px;
 	padding-right: 80px;
