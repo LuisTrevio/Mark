@@ -5,6 +5,8 @@
 
     --hover: rgb(245, 245, 245);
 
+    --feed:rgba(43, 43, 43, 0.397);
+
 	--textcolor: #b4b4b4;
     --bgcolor: rgb(0, 0, 0);
     
@@ -42,4 +44,25 @@
 
     --menu: rgba(36, 36, 36, 0.788);
 }
+}
+
+/*BAR BODY JEJEJE*/
+body::-webkit-scrollbar {
+    width: 11px;
+    background: var(--bgbar)
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 320px;
+    border: 2px solid var(--bgbar);
+    background: var(--bar)
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: var(--barh);
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: none;
 }

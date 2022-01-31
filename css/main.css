@@ -35,6 +35,8 @@ input, button, textarea, select {font: inherit;}
     --bgcolor: rgb(255, 255, 255);
 
 	--hover: rgb(0, 38, 255);
+
+	--feed:rgb(230, 230, 230);
 	
 	--header: rgba(255, 255, 255, 0.623);
 
@@ -133,11 +135,24 @@ li a:hover {
 
 .content {
 	width: 100%;
-	margin: 0 auto 0 auto;
+	margin: auto;
 	height: auto;
 
 	font-family: 'Quicksand', sans-serif;
 	color: var(--textcolor);
+}
+
+.principal {
+	display: grid;
+	width: 100%;
+	max-width: 1400px;
+	grid-template-columns: 2fr 1fr;
+	grid-row: auto 80px;
+	gap: 40px 0px;
+	padding-left: 80px;
+	padding-right: 80px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .title {
@@ -146,7 +161,7 @@ li a:hover {
 
 	display: block;
 	margin: auto;
-	padding: 180px 60px 20px 60px;
+	padding: 180px 60px 20px 120px;
 
 	background: var(--title);
 	color: var(--titlec);
@@ -159,7 +174,6 @@ li a:hover {
 	width: 700px;
 	height: auto;
 	padding: 40px 40px;
-	margin: auto 20px;
 
 	font-family: 'Quicksand', sans-serif;
 }
@@ -234,15 +248,13 @@ a.folder:hover {
 .feed {
 	display:block;
 
-	float:right;
-	z-index: -1;
-	width: 420px;
+	float: right;
+	width: 340px;
 	height: auto;
 	padding: 40px 40px;
-	margin: auto 60px;
 
 	font-family: 'Quicksand', sans-serif;
-	background: var(--bgbar);
+	background: var(--feed);
 }
 
 
@@ -278,7 +290,7 @@ footer {
 
 	display: block;
 	margin: auto;
-	padding: 60px 40px 20px 40px;
+	padding: 60px 60px 20px 60px;
 
 	background: var(--bgbar);
 	color: var(--textcolor);
