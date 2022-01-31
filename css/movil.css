@@ -56,8 +56,8 @@
     .principal {
         padding-left: 0;
         padding-right: 0;
-        grid-template-columns: 3fr;
-        grid-row: auto 80px;
+        grid-template-columns: 1fr;
+        grid-row: auto;
         gap: 80px;
         margin: auto;
     }
