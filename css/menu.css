@@ -112,7 +112,6 @@ input:checked:hover[type="checkbox"]:before{
 	z-index: 1;
     transition: 0.3s;
     cursor: pointer;
-    display: flexbox;
 }
 
 .barita { 
