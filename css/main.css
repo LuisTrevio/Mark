@@ -135,6 +135,7 @@ li a:hover {
 
 .content {
 	width: 100%;
+	display: block;
 	margin: auto;
 	height: auto;
 
@@ -149,6 +150,7 @@ li a:hover {
 	grid-template-columns: 2fr 1fr;
 	grid-row: auto 80px;
 	gap: 40px 0px;
+
 	padding-left: 80px;
 	padding-right: 80px;
 	margin-left: auto;
@@ -159,7 +161,6 @@ li a:hover {
 	width: auto;
 	height: auto;
 
-	display: block;
 	margin: auto;
 	padding: 180px 60px 20px 120px;
 
