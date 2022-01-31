@@ -4,7 +4,7 @@
 * {
 	margin: 0;
 	padding: 0;
-    scroll-behavior: smooth;
+    	scroll-behavior: smooth;
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -25,7 +25,7 @@ p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word;}
 
 input, button, textarea, select {font: inherit;}
 
-/* EH WI GUO */
+/* COLORS */
 
 * {
 	--nucleo: rgb(33, 96, 190);
@@ -193,6 +193,8 @@ a.link:hover {
 	color: var(--nucleoh);
 }
 
+/*INDEX*/
+
 .dotes {user-select: none;}
 
 .dotes::after {content: '-------------------------------------';}
@@ -210,9 +212,7 @@ p.new {
 	width: 60px;
 }
 
-.folder:hover .new {
-	background: var(--nucleo);	
-}
+.folder:hover .new {background: var(--nucleo);}
 
 a.folder {
     width: 100%;
@@ -226,14 +226,14 @@ a.folder {
     background: rgba(170, 167, 167, 0);
 }
 
-a p {
-    color: var(--textcolor);
-}
+a p {color: var(--textcolor);}
 
 a.folder:hover {
     background: var(--bgbar);
     color: var(--nucleoh);
 }
+
+/*TEXT COMMENT*/
 
 .comentario {
 	width: 100%;
@@ -244,7 +244,7 @@ a.folder:hover {
 	font-family: 'Palanquin Dark';
 }
 
-/*FEEDBACK*/
+/*SECOND CARD*/
 
 .feed {
 	display:block;
@@ -283,6 +283,7 @@ a.folder:hover {
 
 .discord {background: url();}
 */
+
 /*FOOTER*/
 
 footer {
@@ -308,7 +309,7 @@ footer h5 {text-align: center;}
 /**/
 
 
-/* EVENTO DEFINICION */
+/* EVENT DEFINICION */
 
 .event {
 	width: 100%;
