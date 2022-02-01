@@ -74,7 +74,7 @@ input, button, textarea, select {font: inherit;}
 
 	--menu: rgba(250, 250, 250, 0.644);
 
-	--btnchecked: rgb(33, 96, 190);
+	--btnchecked: rgb(56, 56, 56);
 }
 
 body {
@@ -157,6 +157,16 @@ li a:hover {
 	padding-right: 80px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.principal2 {
+	display: block;
+	width: 100%;
+	max-width: 860px;
+
+	padding-left: 80px;
+	padding-right: 80px;
+	margin: auto;
 }
 
 .title {
