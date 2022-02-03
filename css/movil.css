@@ -8,6 +8,10 @@
         width: 160px;
     }
 
+    .logo:hover {
+        font-size: 1.15rem;
+    }
+
     .menu-btn {display: block;}
 
     header {

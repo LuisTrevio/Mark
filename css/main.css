@@ -36,7 +36,7 @@ input, button, textarea, select {font: inherit;}
 
 	--hover: rgb(55, 85, 255);
 
-	--feed:rgba(30, 102, 190, 0.041);
+	--feed:rgba(150, 192, 243, 0.411);
 	
 	--header: rgba(255, 255, 255, 0.623);
 
@@ -66,7 +66,7 @@ input, button, textarea, select {font: inherit;}
 		hsl(200deg 53% 90%) 100%
 	);
 	
-	--titlec:#ebebeb;
+	--titlec:rgb(235, 235, 235);
 
 	--bar:rgb(68, 68, 68);
     --bgbar: rgb(227, 229, 232);
@@ -121,6 +121,7 @@ li a:hover {
 }
 
 .logo {
+	transition: 0.2s ease;
 	height: 60px;
 	display: block;
 	width: 200px;
@@ -131,6 +132,11 @@ li a:hover {
 	cursor:default;
 	user-select: none;
 	color: var(--hover);
+}
+
+.logo:hover {
+	transition: 0.2s ease;
+	font-size: 1.12rem;
 }
 
 /*CONTENT*/
@@ -172,14 +178,19 @@ li a:hover {
 .title {
 	width: auto;
 	height: auto;
-
-	margin: auto;
 	padding: 180px 60px 20px 120px;
+	
 
-	background: var(--title);
 	color: var(--titlec);
+	background: var(--title);
 	font-family: 'Palanquin Dark';
 	font-size: 2rem;
+}
+
+.wrap {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
 }
 
 .square {
