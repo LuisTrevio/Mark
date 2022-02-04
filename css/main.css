@@ -36,7 +36,7 @@ input, button, textarea, select {font: inherit;}
 
 	--hover: rgb(55, 85, 255);
 
-	--feed:rgba(150, 192, 243, 0.411);
+	--feed:rgba(150, 192, 243, 0.301);
 	
 	--header: rgba(255, 255, 255, 0.623);
 
@@ -126,7 +126,7 @@ li a:hover {
 	display: block;
 	width: 200px;
 	text-align: center;
-	padding: 20px;
+	padding: 18px;
 	font-family: 'Quicksand', sans-serif;
 
 	cursor:default;
@@ -312,24 +312,71 @@ a.folder:hover {
 /*FOOTER*/
 
 footer {
-	width: auto;
-	height: auto;
-
-	display: block;
-	margin: auto;
-	padding: 60px 60px 20px 60px;
-
-	background: var(--bgbar);
-	color: var(--textcolor);
-	font-family: 'Quicksand', sans-serif;
 	font-size: 1.2em;
+	font-family: 'Quicksand', sans-serif;
+
+	background-color: var(--bgbar);
+	color: var(--textcolor);
+}
+
+.wrapfooter {
+	display: grid;
+	width: 100%;
+	max-width: 1400px;
+	grid-template-columns: 2fr 1fr;
+	gap: auto 10px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.redux {
+	background-image: var(--title);
+	background-clip: text;
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+
+	border-radius: 20px;
+	background: var(--title);
+	background-attachment: fixed;
+	color: var(--titlec);
+	cursor: pointer;
+
+	transition: 0.3s;
+	width: 100%;
+	height: 45px;
+}
+
+button:hover {background: rgb(255, 255, 255); color: #121212;}
+
+.redux-1 {
+	padding: 60px 60px;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.redux-2 {
+	padding: 60px 40px;
+	background-color: rgba(0, 174, 255, 0);
+}
+
+.final {
+	width: 100%;
+	font-size: 1.2em;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	color: var(--textcolor);
+	background-color: var(--bgbar);
 }
 
 footer h1 {
 	font-family: 'Palanquin Dark';
 }
-
-footer h5 {text-align: center;}
 
 /**/
 

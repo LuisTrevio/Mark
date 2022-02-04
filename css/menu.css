@@ -74,6 +74,12 @@ input:checked[type="checkbox"]:before{
 	font-size: 2rem;
 	height: auto;
 	font-family: 'Palanquin Dark', sans-serif;
+    animation: dude 0.2s ease;
+}
+
+@keyframes dude {
+    0% {transform: translateY(40px);}
+    100%{}
 }
 
 .menu-op li {margin: 80px 40px;}

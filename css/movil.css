@@ -33,13 +33,7 @@
         font-size: 1.4rem;
     }
 
-    footer {
-        width: 100%; 
-        padding: 40px 20px;}
-
     footer h1 {font-size: 1.8rem;}
-
-    footer h5 {text-align:left;}
 
     p.new {
         padding: 0 6px;
@@ -80,6 +74,19 @@
 @media (max-width:1050px) { 
 
     .feed {display: none}
+
+    .wrapfooter { 
+        display: block;
+    }
+    .redux-1 {
+        padding: 40px 20px 20px 20px;
+    }
+
+    .redux-2 {
+        padding: 20px 20px; 
+    }
+
+    .final {padding: 20px;}
     
     .principal {
         grid-template-columns: 1fr;
