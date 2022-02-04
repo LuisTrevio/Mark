@@ -352,7 +352,7 @@ button {
 	height: 45px;
 }
 
-button:hover {background: rgb(255, 255, 255); color: #121212;}
+button:hover {transition: 0.3s; background: rgb(255, 255, 255); color: #121212;}
 
 .redux-1 {
 	padding: 60px 60px;
