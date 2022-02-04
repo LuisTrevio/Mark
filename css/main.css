@@ -344,7 +344,6 @@ button {
 
 	border-radius: 20px;
 	background: var(--title);
-	background-attachment: fixed;
 	color: var(--titlec);
 	cursor: pointer;
 
