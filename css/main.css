@@ -35,6 +35,7 @@ input, button, textarea, select {font: inherit;}
     --bgcolor: rgb(255, 255, 255);
 
 	--hover: rgb(55, 85, 255);
+	--logo: rgb(49, 49, 49);
 
 	--feed:rgba(150, 192, 243, 0.301);
 	
@@ -137,7 +138,7 @@ li a:hover {
 
 	cursor:default;
 	user-select: none;
-	color: var(--hover);
+	color: var(--logo);
 }
 
 .logo:hover {
