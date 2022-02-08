@@ -1,3 +1,11 @@
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 100) {
+        $(".scroll").addClass("active");
+    } else {
+       $(".scroll").removeClass("active");
+    }
+});
+
 const checkbox = document.getElementById('checkbox');
 
     checkbox.addEventListener('change', () => {
