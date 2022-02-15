@@ -261,6 +261,7 @@ a.folder {
 
     display: block;
 	border-radius: 10px;
+	transition: 0.2s ease-out;
 	user-select: none;
     background: rgba(170, 167, 167, 0);
 }
@@ -268,6 +269,7 @@ a.folder {
 a p {color: var(--textcolor);}
 
 a.folder:hover {
+	transition: 0.2s ease-out;
     background: var(--bgbar);
     color: var(--nucleoh);
 }
