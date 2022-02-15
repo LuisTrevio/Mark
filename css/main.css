@@ -98,8 +98,14 @@ header {
 }
 
 .active {
+	animation: sus 0.3s ease-out;
 	transition: 0.3s;
 	background: var(--header);
+}
+
+@keyframes sus {
+	0% {transform: translateY(-50px);}
+	100% {}
 }
 
 .menu {display: none; width: 0; height: 0;}
