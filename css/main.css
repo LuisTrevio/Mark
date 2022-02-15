@@ -362,11 +362,12 @@ button {
 button:hover {transition: 0.3s; background: rgb(255, 255, 255); color: #121212;}
 
 .redux-1 {
-	padding: 60px 60px;
+	padding: 60px 40px;
 	background-color: rgba(255, 0, 0, 0);
 }
 
 .redux-2 {
+	font-size: 1em;
 	padding: 60px 40px;
 	background-color: rgba(0, 174, 255, 0);
 }
