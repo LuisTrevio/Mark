@@ -143,7 +143,7 @@ li a:hover {
 
 .logo:hover {
 	transition: 0.2s ease;
-	font-size: 1.12rem;
+	transform: scale(1.1);
 }
 
 /*CONTENT*/
