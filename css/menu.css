@@ -90,8 +90,8 @@ input:checked[type="checkbox"]:before{
 .menu-toggle {
     display: block;
     user-select: none;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     bottom: 1px;
     position: fixed;
   

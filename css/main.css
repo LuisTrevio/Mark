@@ -260,6 +260,7 @@ a.folder {
     font-family: 'Quicksand', sans-serif;
 
     display: block;
+	border-radius: 10px;
 	user-select: none;
     background: rgba(170, 167, 167, 0);
 }
