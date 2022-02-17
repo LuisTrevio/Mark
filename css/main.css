@@ -176,6 +176,7 @@ li a:hover {
 	padding-right: 80px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 .principal2 {
@@ -295,8 +296,7 @@ a.folder:hover {
 	height: 100%;
 
 	font-family: 'Quicksand', sans-serif;
-	
-	z-index: -1;
+	font-size: 1em;
 }
 
 .feed h2 {
@@ -313,16 +313,26 @@ a.folder:hover {
 }
 
 .sticky {
-	display: block;
 	position: sticky;
 	top: 80px;
 	z-index: 1;
+
 	width: 340px;
-	height: 340px;
+	height: auto;
+
+	padding: 30px 30px;
+	margin-bottom: 20px;
 
 	background: var(--feed);
 	border-radius: 20px;
+	user-select: none;
 }
+
+.wrapstick a:hover{
+	text-decoration: underline;
+	color: var(--nucleoh);
+}
+
 
 .redes {
 	display:flex;
@@ -335,7 +345,7 @@ a.folder:hover {
 	height: 60px;
 
 	margin: auto 2px;
-	background: #776363;
+	background: #838383;
 }
 /*
 .twitter {background: url();}
