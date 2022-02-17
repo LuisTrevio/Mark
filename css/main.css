@@ -288,20 +288,40 @@ a.folder:hover {
 /*SECOND CARD*/
 
 .feed {
-	display:block;
+	display: flex;
+	flex-direction: column;
 
-	float: right;
 	width: 340px;
-	height: auto;
-	padding: 40px 40px;
+	height: 100%;
 
 	font-family: 'Quicksand', sans-serif;
-	background: var(--feed);
+	
+	z-index: -1;
 }
-
 
 .feed h2 {
 	font-family: 'Palanquin Dark';
+}
+
+.feeded {
+	background: var(--feed);
+	border-radius: 20px;
+
+	padding: 30px 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sticky {
+	display: block;
+	position: sticky;
+	top: 80px;
+	z-index: 1;
+	width: 340px;
+	height: 340px;
+
+	background: var(--feed);
+	border-radius: 20px;
 }
 
 .redes {
@@ -315,7 +335,7 @@ a.folder:hover {
 	height: 60px;
 
 	margin: auto 2px;
-	background: var(--bgcolor);
+	background: #776363;
 }
 /*
 .twitter {background: url();}
@@ -329,6 +349,7 @@ a.folder:hover {
 
 footer {
 	font-size: 1.2em;
+	z-index: 1;
 	font-family: 'Quicksand', sans-serif;
 
 	background-color: var(--bgbar);
