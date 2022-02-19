@@ -76,6 +76,8 @@ input, button, textarea, select {font: inherit;}
 	--menu: rgba(250, 250, 250, 0.644);
 
 	--btnchecked: rgb(56, 56, 56);
+
+	--letter: rgb(124, 88, 253);
 }
 
 body {
@@ -284,9 +286,11 @@ a.folder:hover {
 .comentario {
 	width: 100%;
 	height: auto;
+	padding: 20px;
+
+	border-radius: 10px;
 	background-color: #121212;
 	color: rgb(199, 199, 199);
-	padding: 20px;
 	font-family: 'Palanquin Dark';
 }
 
@@ -319,7 +323,6 @@ a.folder:hover {
 .sticky {
 	position: sticky;
 	top: 80px;
-	z-index: 1;
 
 	width: 340px;
 	height: auto;
@@ -337,6 +340,10 @@ a.folder:hover {
 	color: var(--nucleoh);
 }
 
+.letter {
+	font-family: 'Palanquin Dark';
+	letter-spacing: 2px;
+}
 
 .redes {
 	display:flex;
@@ -437,20 +444,21 @@ footer h1 {
 
 .event {
 	width: 100%;
-	display: flex;
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	height: auto;
 	margin: 6px auto;
 }
 
 .Cuadros {
-	width: 20%;
 	height: 240px;
 	padding: 8px;
 	margin: auto 4px;
 	border-radius: 10px;
 	color: #121212;
 	font-size: 18px;
-	font-family: 'Roboto',sans-serif;
+	font-family: 'Palanquin Dark';
 	cursor: default;
 }
 
