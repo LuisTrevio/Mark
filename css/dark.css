@@ -11,7 +11,7 @@
 	--textcolor: rgb(180, 180, 180);
     --bgcolor: rgb(0, 0, 0);
     
-	--header: rgba(70, 70, 70, 0.726);
+	--header: rgba(42, 42, 42, 0.726);
 
     --btncolor: rgba(24, 24, 24, 0.541);
 
@@ -40,7 +40,7 @@
       );
 
 	--bar:rgb(227, 229, 232);
-    --bgbar: rgb(68, 68, 68);
+    --bgbar: rgb(42, 42, 42);
     --barh: rgb(255, 174, 0);
 
     --menu: rgba(36, 36, 36, 0.788);
