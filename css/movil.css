@@ -55,6 +55,10 @@
 
     .Cuadros {height: 160px; font-size: 10px; margin: auto 2px;}
     
+    .folder {
+        cursor: default;
+    }
+    
 }
 
 @media (max-width:1130px) {
