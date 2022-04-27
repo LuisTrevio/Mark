@@ -116,6 +116,7 @@ input:checked[type="checkbox"]:before{
     border-radius: 20px;
 	z-index: 1;
     transition: 0.3s;
+user-select: none;
     cursor: pointer;
 }
 
