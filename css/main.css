@@ -101,6 +101,7 @@ header {
 
 	position: fixed;
 	font-family: 'Palanquin Dark', sans-serif;
+	z-index: 3;
 }
 
 .active {
@@ -398,7 +399,7 @@ footer {
 .wrapfooter {
 	display: grid;
 	width: 100%;
-	max-width: 1400px;
+	max-width: 1200px;
 	grid-template-columns: 2fr 1fr;
 	gap: auto 10px;
 
